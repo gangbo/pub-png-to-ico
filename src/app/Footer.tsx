@@ -9,7 +9,7 @@ const Footer: React.FC = () => (
             <div className="flex space-x-4 items-center">
                 {/*<Link href="/privacy" className="text-sm hover:text-violet-700">Privacy Policy</Link>*/}
                 {/*<Link href="/terms" className="text-sm hover:text-violet-700">Terms of Service</Link>*/}
-                {/*<a href="https://github.com/yourusername" className="text-gray-500 hover:text-violet-700"><Github size={20} /></a>*/}
+                <a target={"_blank"} href="https://github.com/gangbo/pub-png-to-ico" className="text-gray-500 hover:text-violet-700"><Github size={20} /></a>
             </div>
         </div>
     </footer>

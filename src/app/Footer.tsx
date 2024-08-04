@@ -7,8 +7,8 @@ const Footer: React.FC = () => (
                 © 2024 PNG-to-ICO.com. All rights reserved.
             </div>
             <div className="flex space-x-4 items-center">
-                {/*<Link href="/privacy" className="text-sm hover:text-violet-700">Privacy Policy</Link>*/}
-                {/*<Link href="/terms" className="text-sm hover:text-violet-700">Terms of Service</Link>*/}
+                <Link href="#" className="text-sm hover:text-violet-700">Privacy Policy</Link>
+                <Link href="#" className="text-sm hover:text-violet-700">Terms of Service</Link>
                 <a target={"_blank"} href="https://github.com/gangbo/pub-png-to-ico" className="text-gray-500 hover:text-violet-700"><Github size={20} /></a>
             </div>
         </div>
